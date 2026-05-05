@@ -1,6 +1,22 @@
+import { useEffect, useState } from "react";
+import { supabase } from "@supabase/supabase-js";
+
 import AnimateOnScroll from "../Hooks/AnimateOnScroll";
 import ServiceCard from "../Card/ServiceCard";
-import servicesData from "../../Data/servicedata";
+
+const [loading, setLoading] = useState(true);
+
+async function getServices() {
+    const { data } = await supabase
+        .from("services")
+        .select("*");
+
+    if (error) {
+        console.error(error);
+    } else {
+        setServices(data);
+    }
+}
 
 const ServiceSection = () => {
     return (
@@ -23,7 +39,7 @@ const ServiceSection = () => {
 
                     {/* Service Cards */}
                     <div className="service-content-wrapper">
-                        {servicesData.map((service) => (
+                        {services.map((service) => (
                             <ServiceCard
                                 key={service.id}
                                 title={service.title}
