@@ -423,7 +423,7 @@ ul{
 .card-service-wrapper{
     width: 90%;
     background-color: var(--accent-color-2);
-    background-image: url('assets/images/Hover1.webp');
+    background-image: url('/assets/images/Hover1.webp');
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 0% auto;
@@ -439,7 +439,7 @@ ul{
 .card-service-wrapper::before{
     content: '';
     opacity: 1;
-    background-image: url('assets/images/Hover2.webp');
+    background-image: url('/assets/images/Hover2.webp');
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: 0% auto;
@@ -482,7 +482,7 @@ ul{
 .card-service::before{
     content: '';
     position: absolute;
-    background-image: url('assets/images/BG6-e1714987977167.webp');
+    background-image: url('/assets/images/BG6-e1714987977167.webp');
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -540,7 +540,7 @@ ul{
 .card-featured.creative-solution{
     min-height: 400px;
     background-color: var(--secondary);
-    background-image: url('assets/images/BB3.webp');
+    background-image: url('/assets/images/BB3.webp');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -562,7 +562,7 @@ ul{
     min-height: 300px;
     text-align: center;
     background-color: var(--secondary);
-    background-image: url('assets/images/BG441-e1715086371342.webp');
+    background-image: url('/assets/images/BG441-e1715086371342.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -615,7 +615,7 @@ ul{
     align-items: flex-end;
     text-align: end;
     background-color: var(--secondary);
-    background-image: url('assets/images/BB1-e1715088956628.webp');
+    background-image: url('/assets/images/BB1-e1715088956628.webp');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -660,7 +660,7 @@ ul{
     align-items: end;
     text-align: end;
     background-color: var(--secondary);
-    background-image: url('assets/images/BB4.webp');
+    background-image: url('/assets/images/BB4.webp');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -693,7 +693,7 @@ ul{
 
 .card-pricing-wrapper{
     background-color: var(--accent-color-2);
-    background-image: url('assets/images/PricingHover1.webp');
+    background-image: url('/assets/images/PricingHover1.webp');
     background-position: center left;
     background-repeat: no-repeat;
     background-size: 0% auto;
@@ -707,7 +707,7 @@ ul{
 
 .card-pricing-wrapper::before{
     content: '';
-    background-image: url('assets/images/PricingHover2.webp');
+    background-image: url('/assets/images/PricingHover2.webp');
     background-position: center right;
     background-repeat: no-repeat;
     background-size: 0% auto;
@@ -730,7 +730,7 @@ ul{
 .card-pricing.popular{
     background-color: var(--accent-color-2);
     color: var(--primary);
-    background-image: url('assets/images/BG441-e1715086371342.webp');
+    background-image: url('/assets/images/BG441-e1715086371342.webp');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1439,7 +1439,7 @@ textarea.error-border{
     justify-content: center;
     align-items: center;
     padding: 12em 1em 6em 1em;
-    background-image: url('assets/images/BG-Hero.webp');
+    background-image: url('/assets/images/BG-Hero.webp');
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -1531,7 +1531,7 @@ textarea.error-border{
     text-align: center;
     align-items: center;
     padding: 12em 1em 6em 1em;
-    background-image: url('assets/images/BG-Page.webp');
+    background-image: url('/assets/images/BG-Page.webp');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1552,7 +1552,7 @@ textarea.error-border{
 }
 
 .about-banner{
-    background-image: url('assets/images/BG3.webp');
+    background-image: url('/assets/images/BG3.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1573,7 +1573,7 @@ textarea.error-border{
 
 .achievement-banner::before{
     content: '';
-    background-image: url('assets/images/BG4.webp');
+    background-image: url('/assets/images/BG4.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1587,14 +1587,14 @@ textarea.error-border{
 }
 
 .whychooseus-banner{
-    background-image: url('assets/images/BG8.webp');
+    background-image: url('/assets/images/BG8.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .contactus-banner{
-    background-image: url('assets/images/04-e1715052051327.webp');
+    background-image: url('/assets/images/04-e1715052051327.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1623,7 +1623,7 @@ textarea.error-border{
 }
 
 .cta-banner{
-    background-image: url('assets/images/04-e1715052051327.webp');
+    background-image: url('/assets/images/04-e1715052051327.webp');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1652,7 +1652,7 @@ textarea.error-border{
 }
 
 .team-banner{
-    background-image: url('assets/images/BG-Team2.webp');
+    background-image: url('/assets/images/BG-Team2.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1673,7 +1673,7 @@ textarea.error-border{
 }
 
 .team-extend-banner{
-    background-image: url('assets/images/BG-Portfolio.webp');
+    background-image: url('/assets/images/BG-Portfolio.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1695,7 +1695,7 @@ textarea.error-border{
 }
 
 .portfolio-banner{
-    background-image: url('assets/images/BG-Portfolio.webp');
+    background-image: url('/assets/images/BG-Portfolio.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1717,7 +1717,7 @@ textarea.error-border{
 
 .banner-notfound{
     background-color: var(--secondary);
-    background-image: url('assets/images/05-e1715139880417.webp');
+    background-image: url('/assets/images/05-e1715139880417.webp');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1732,7 +1732,7 @@ textarea.error-border{
     display: flex;
     flex-direction: column;
     padding: 4em 1em 1em 1em;
-    background-image: url('assets/images/plasma-ball@2x_11zon.webp');
+    background-image: url('/assets/images/plasma-ball@2x_11zon.webp');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1777,7 +1777,7 @@ textarea.error-border{
 
 .card-about .wrapper{
     background-color: var(--primary);
-    background-image: url('assets/images/05-e1715139880417.webp');
+    background-image: url('/assets/images/05-e1715139880417.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1960,7 +1960,7 @@ textarea.error-border{
     border-radius: 15px 15px 15px 15px;
     color: var(--primary);
     background-color: var(--secondary);
-    background-image: url('assets/images/BG441-e1715086371342.webp');
+    background-image: url('/assets/images/BG441-e1715086371342.webp');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -2002,7 +2002,7 @@ textarea.error-border{
 }
 
 .portfolio-video-container{
-    background-image: url('assets/images/picture-of-architects-working-together-in-office-2023-11-27-05-13-00-utc-1_11zon-e1714991364232.webp');
+    background-image: url('/assets/images/picture-of-architects-working-together-in-office-2023-11-27-05-13-00-utc-1_11zon-e1714991364232.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2209,7 +2209,7 @@ textarea.error-border{
 .card-blog .card-footer .divider::before{
     content: "•";
     color: var(--accent-color);
-    background-image: url('assets/images/svg/dot-svgrepo-com.svg');
+    background-image: url('/assets/images/svg/dot-svgrepo-com.svg');
 }
 
 .meta-data{
