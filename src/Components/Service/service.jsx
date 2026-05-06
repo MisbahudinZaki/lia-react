@@ -55,6 +55,10 @@ const ServiceSection = () => {
                                 />
                             ))
                         )}
+
+                        <button className="btn btn-accent" onClick={() => setEditing(service)}>
+                            Edit
+                        </button>
                     </div>
 
                     <ServiceForm/>
