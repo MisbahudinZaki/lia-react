@@ -1,6 +1,6 @@
 import AnimateOnScroll from "../Hooks/AnimateOnScroll";
 
-const ServiceCard = ({ title, image, description, highlight, link }) => {
+const ServiceCard = ({ title, image, description, highlight, link, onEdit, onDelete }) => {
     return (
         <AnimateOnScroll animation="fadeIn">
             <div className="card card-service-wrapper">
