@@ -16,6 +16,10 @@ const ServiceCard = ({ title, image, description, highlight, link }) => {
                         </a>
                         <i className="fa-solid fa-arrow-right"></i>
                     </div>
+                    <div className="d-flex flex-column flex-gap-2">
+                        <button onClick={onEdit}>Edit</button>
+                        <button onClick={onDelete}>Delete</button>
+                    </div>
                 </div>
             </div>
         </AnimateOnScroll>

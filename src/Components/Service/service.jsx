@@ -13,6 +13,25 @@ const ServiceSection = () => {
         getServices();
     }, []);
 
+    async function deleteService(id) {
+        const confirmDelete = confirm("Yakin mau hapus?");
+        if (!confirmDelete) return;
+
+        const { error } = await supabase
+            .from("services")
+            .delete()
+            .eq("id", id);
+
+        if (error) {
+            console.error(error);
+        } else {
+            alert("Berhasil hapus");
+            getServices();
+        }
+        }
+
+    const [editing, setEditing] = useState(null);
+
     async function getServices() {
         const { data, error } = await supabase
             .from("services")
@@ -52,16 +71,18 @@ const ServiceSection = () => {
                                     description={service.description}
                                     highlight={service.highlight}
                                     link={service.link}
+                                    onEdit={() => setEditing(service)}
+                                    onDelete={() => deleteService(service.id)}
                                 />
                             ))
                         )}
-
-                        <button className="btn btn-accent" onClick={() => setEditing(service)}>
-                            Edit
-                        </button>
                     </div>
 
-                    <ServiceForm/>
+                    <ServiceForm
+                        getServices={getServices}
+                        editing={editing}
+                        setEditing={setEditing}
+                    />
 
                 </div>
             </div>
