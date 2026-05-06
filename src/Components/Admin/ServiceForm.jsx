@@ -109,7 +109,7 @@ const ServiceForm = ({ getServices, editing, setEditing }) => {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="form">
       <input
         type="text"
         placeholder="Title"
