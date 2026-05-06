@@ -3,6 +3,7 @@ import { supabase } from "../../supabaseClient";
 
 const ServiceForm = () => {
 const [title, setTitle] = useState("");
+const [highlight, setHighlight] = useState("");
 const [description, setDescription] = useState("");
 const [imageFile, setImageFile] = useState(null);
 
@@ -68,6 +69,15 @@ return (
         value={description}
         onChange={(e) => setDescription(e.target.value)}
     />
+
+    <label>
+        <input
+            type="checkbox"
+            checked={highlight}
+            onChange={(e) => setHighlight(e.target.checked)}
+        />
+        Highlight Service
+    </label>
 
     <input
         type="file"
