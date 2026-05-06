@@ -3,6 +3,7 @@ import { supabase } from "../../supabaseClient";
 
 import AnimateOnScroll from "../Hooks/AnimateOnScroll";
 import ServiceCard from "../Card/ServiceCard";
+import ServiceForm from "../Admin/ServiceForm";
 
 const ServiceSection = () => {
     const [services, setServices] = useState([]);
@@ -55,6 +56,8 @@ const ServiceSection = () => {
                             ))
                         )}
                     </div>
+
+                    <ServiceForm/>
 
                 </div>
             </div>
