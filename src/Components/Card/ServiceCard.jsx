@@ -16,7 +16,7 @@ const ServiceCard = ({ title, image, description, highlight, link, onEdit, onDel
                         </a>
                         <i className="fa-solid fa-arrow-right"></i>
                     </div>
-                    <div className="d-flex flex-column flex-gap-2">
+                    <div className="d-flex flex-column gspace-2">
                         <button className="btn btn-accent" onClick={onEdit}>Edit</button>
                         <button className="btn btn-accent" onClick={onDelete}>Delete</button>
                     </div>
